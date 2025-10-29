@@ -106,9 +106,9 @@ External smart contract audit planned before mainnet launch
 
 ## Team
 
-Isarck Eser (@Ishaqkdw) – Founder, DePIN Innovator
-Kabir Muhammad (@KbHanwa) – CFO, Web3 Community Builder
-Zaharaddeen Isah (@Zaharaddeenisah) – Mentor, Renewable Energy & Blockchain Researcher
+- Isarck Eser (@SirIsarck001) – Founder, DePIN Innovator
+- Kabir Muhammad (@KbHanwa) – CFO, Web3 Community Builder
+- Zaharaddeen Isah (@Zaharaddeenisah) – Mentor, Renewable Energy & Blockchain Researcher
 Collaborators: IoT Engineer, Smart Contract Developer, Community Operations Lead
 
 ## Roadmap
@@ -121,12 +121,12 @@ Q2 2026	Launch SunChain Africa Platform	Mainnet-ready deployment
 
 ## Vision
 
-To make clean energy as open and borderless as the internet itself — powered by Solana.
+To make clean energy as open and borderless as the internet itself, powered by Solana.
 
 ## Contact:
-📧 ishaqisah013@gmail.com
-🐦 @Sirisarck
-🌐https://github.com/SirIsarck/sirisarck.github.io
+Email: ishaqisah013@gmail.com
+Twitter: @Sirisarck
+Website: https://github.com/SirIsarck/sirisarck.github.io
 
 
 
