@@ -47,32 +47,86 @@ Demonstrates how blockchain can support real-world infrastructure
 
 ## Deployment & Usage
 
-Requirements
+This section outlines how to set up and interact with the SunChain prototype using the Solana and Anchor frameworks.  
+*(Note: The following commands use placeholder examples. They can be replaced with actual paths and program IDs once the smart contracts are ready.)*
 
-Node.js version 18 or higher
+## 1. Prerequisites
+Before deployment, ensure you have the following installed:
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli) (v1.18 or higher)
+- [Anchor Framework](https://book.anchor-lang.com/chapter_2/installation.html)
+- Node.js and Yarn (for frontend interaction)
+- Rust (for compiling smart contracts)
+- Git (for repository management)
 
-Rust and Anchor framework installed
+Verify installation:
+```bash
+solana --version
+anchor --version
+rustc --version
+```
 
-Solana CLI configured for devnet
-
-## Installation
-
-# Clone the repository
+## 2. Clone the Repository
+```bash
 git clone https://github.com/SirIsarck/SunChainSOL1.git
-
-# Navigate into the project folder
 cd SunChainSOL1
+```
 
-# Install dependencies
-npm install
+## 3. Configure Solana Cluster
+Choose your preferred Solana environment:
+```bash
+solana config set --url https://api.devnet.solana.com
+solana config get
+```
 
-## Deployment
+Generate a new keypair if needed:
+```bash
+solana-keygen new --outfile ~/.config/solana/id.json
+```
 
-# Build smart contracts
+## 4. Build the Smart Contract (Program)
+```bash
 anchor build
+```
+This command compiles the placeholder SunChain program into a deployable `.so` binary under the `target/deploy/` directory.
 
-# Deploy to Solana devnet
+## 5. Deploy to Devnet
+```bash
 anchor deploy
+```
+After deployment, youâ€™ll receive a `Program ID`.  
+Copy and update it in `Anchor.toml` and the frontend configuration file.
+
+Example placeholder:
+```toml
+[programs.devnet]
+sunchain = "So1na1111111111111111111111111111111111111111"
+```
+
+## 6. Interacting with the Program
+Once deployed, you can interact with the program using the Anchor CLI or Solana client SDKs.
+
+Example placeholder command:
+```bash
+anchor test
+```
+
+Or manually invoke a transaction:
+```bash
+solana program invoke   --program-id <PROGRAM_ID>   --keypair ~/.config/solana/id.json
+```
+
+## 7. Frontend Integration (Optional)
+If you plan to connect a web dashboard for IoT and on-chain data visualization:
+
+Install dependencies:
+```bash
+yarn install
+```
+
+Start the local server:
+```bash
+yarn dev
+```
 
 ## Usage
 
