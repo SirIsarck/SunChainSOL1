@@ -1,97 +1,127 @@
-# SunChain
-SunChain — Decentralized Solar Energy Network on Solana
+## SunChain
 
-## Problem Statement:
+Decentralized Solar Energy Network on Solana
+
+## Problem Statement
 
 Millions of Africans lack reliable electricity.
-
 Grid power is inconsistent, expensive, and centralized.
-
 Rural communities depend on fuel generators that harm the environment.
 
+## Our Solution — SunChain
 
-## Our Solution — SunChain:
+A Decentralized Physical Infrastructure Network (DePIN) connecting community solar hubs using Solana.
 
-A DePIN (Decentralized Physical Infrastructure Network) connecting community solar hubs using Solana.
-
-Each hub records energy data on-chain for transparency & trust.
-
+Each hub records energy data on-chain for transparency and trust.
 Users pay via Solana smart contracts using stablecoins.
 
+## Why Solana
 
-## Why Solana:
+Ultra-fast and low-cost micro energy payments
 
-Ultra-fast & low-cost transactions for micro energy payments.
+Real-time IoT data tracking via on-chain oracles
 
-Real-time data tracking via on-chain oracles & IoT integration.
-
-Scalable enough for millions of microgrid users.
-
-
-## How It Works:
-
-1. Communities install solar panels & smart IoT meters.
+Scalable for millions of microgrid users
 
 
-2. Data is sent to Solana and stored on-chain.
+## How It Works
+
+1. Communities install solar panels and IoT-enabled smart meters.
+
+
+2. Energy data is transmitted to Solana and stored on-chain.
 
 
 3. Users buy tokens or pay directly for electricity.
 
 
-4. Transparent revenue distribution to maintainers & investors.
+4. Revenue is distributed transparently among operators and investors.
 
+## Impact
 
-## Impact:
+Provides clean and affordable power access
 
-Access to clean, affordable power.
+Creates new economic opportunities for rural tech operators
 
-New economic opportunities for rural tech operators.
+Demonstrates how blockchain can support real-world infrastructure
 
-Proof that blockchain can power real-world infrastructure.
+## Deployment & Usage
 
+Requirements
 
-## Traction (Pilot):
+Node.js version 18 or higher
 
-10 solar units installed across 3 locations.
+Rust and Anchor framework installed
 
-100+ users registered for pilot.
+Solana CLI configured for devnet
 
-80%+ uptime, 70%+ success in data sync.
+## Installation
 
+# Clone the repository
+git clone https://github.com/SirIsarck/SunChainSOL1.git
 
-## Security Approach:
+# Navigate into the project folder
+cd SunChainSOL1
 
-On-chain verification of energy data.
+# Install dependencies
+npm install
 
-Escrow smart contracts for payments.
+## Deployment
 
-Plan to conduct external security audit before mainnet.
+# Build smart contracts
+anchor build
 
-## Team:
+# Deploy to Solana devnet
+anchor deploy
 
-Isarck Eser @Ishaqkdw (Founder) — Web3 Builder, DePIN Innovator. Blockchain learner focusing on decentralized infrastructure. Interested in DePIN models for energy and connectivity.
+## Usage
 
-Kabir Muhammad @KbHanwa (CFO)
-Active Web3 community participant with curiosity in DePIN, NFTs, and DeFi. Supports blockchain adoption through education, also learning Cybersecurity.
+Connect a Solana wallet (Phantom or Solflare)
 
-Zaharaddeen Isah @Zaharaddeenisah (Mentor)
-Tech enthusiast studying renewable energy + blockchain integration. Interested in sustainability and local adoption models.
+Register a community solar hub
 
-Collaborators: IoT Engineer, Smart Contract Dev, Community Ops Lead
+Monitor real-time energy data
 
+Execute payments and revenue sharing through the smart contract
 
-## Roadmap:
+## Technical Stack
 
-Q4 2025: Launch IoT-enabled pilot on Solana
-Q1 2026: Publish adoption report & expand to 5 new communities
-Q2 2026: Launch SunChain Africa platform
+Blockchain: Solana
 
+Smart Contracts: Rust (Anchor Framework)
 
-## Vision:
+Frontend: React / Next.js
 
-To make clean energy as open and borderless as the internet itself, powered by Solana.
+IoT Data: On-chain data + IPFS storage
 
+Token: SPL token (SunToken)
+
+## Security
+
+On-chain verification of energy data
+
+Escrow-based smart contracts for payment management
+
+External smart contract audit planned before mainnet launch
+
+## Team
+
+Isarck Eser (@Ishaqkdw) – Founder, DePIN Innovator
+Kabir Muhammad (@KbHanwa) – CFO, Web3 Community Builder
+Zaharaddeen Isah (@Zaharaddeenisah) – Mentor, Renewable Energy & Blockchain Researcher
+Collaborators: IoT Engineer, Smart Contract Developer, Community Operations Lead
+
+## Roadmap
+
+## Quarter Milestone	Goal
+
+Q4 2025	IoT-enabled Pilot	3 communities live
+Q1 2026	Expand to 5 new communities	500 active users
+Q2 2026	Launch SunChain Africa Platform	Mainnet-ready deployment
+
+## Vision
+
+To make clean energy as open and borderless as the internet itself — powered by Solana.
 
 ## Contact:
 📧 ishaqisah013@gmail.com
