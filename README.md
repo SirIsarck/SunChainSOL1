@@ -161,7 +161,7 @@ External smart contract audit planned before mainnet launch
 ## Team
 
 - Isarck Eser (@SirIsarck001) – Founder, DePIN Innovator
-- Kabir Muhammad (@KbHanwa) – CFO, Web3 Community Builder
+- Kabir Muhammad (@Ishaqkdw) – CFO, Web3 Community Builder
 - Zaharaddeen Isah (@Zaharaddeenisah) – Mentor, Renewable Energy & Blockchain Researcher
 Collaborators: IoT Engineer, Smart Contract Developer, Community Operations Lead
 
