@@ -148,7 +148,7 @@ Frontend: React / Next.js
 
 IoT Data: On-chain data + IPFS storage
 
-Token: SPL token (SunToken)
+Token: SunToken (SCN) – SPL token on Solana
 
 
 ## ## Reward Mechanism
