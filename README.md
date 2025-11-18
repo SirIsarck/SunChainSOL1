@@ -151,9 +151,6 @@ IoT Data: On-chain data + IPFS storage
 Token: SPL token (SunToken)
 
 
-** This demo illustrates how decentralized energy nodes can earn tokenized incentives for powering real-world infrastructure in the DePIN economy.
-
-
 ## ## Reward Mechanism
 
 SunChain introduces a simulated on-chain reward model for DePIN energy nodes.  
@@ -163,6 +160,8 @@ Each node earns SCH (SunChain Tokens) based on:
 - Energy Contribution: Amount of simulated energy reported to the Solana network.
 
 Rewards are calculated and distributed through a smart-contract logic that can be adapted to Solana Mainnet in future versions.
+
+** This demo illustrates how decentralized energy nodes can earn tokenized incentives for powering real-world infrastructure in the DePIN economy.
 
 
 ## Security
