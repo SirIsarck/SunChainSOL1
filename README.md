@@ -128,15 +128,188 @@ Start the local server:
 yarn dev
 ```
 
-## Usage
+## How we want the Meter feature to work
 
-Connect a Solana wallet (Phantom or Solflare)
+SunChain Smart Hub Meter – Technical & Functional Specification
 
-Register a community solar hub
+Project: SunChain – Decentralized Solar Energy Network
+Objective: Develop a smart hub meter capable of managing multiple users in a community microgrid with AI integration, pay-as-you-go energy distribution, and blockchain-enabled transparency.
 
-Monitor real-time energy data
 
-Execute payments and revenue sharing through the smart contract
+1. Core Objectives
+
+The meter must:
+
+- Track energy usage for multiple users (100–1000 users per hub).
+
+- Allow users to connect instantly without owning individual inverters, batteries, or panels.
+
+- Provide operators full control over electricity distribution.
+
+- Optimize battery lifespan and efficiency through intelligent management.
+
+- Support offline and online operations for rural areas with intermittent internet.
+
+
+2. User Management & Tracking
+
+Unique user IDs assigned upon joining (1, 2, 3…).
+
+Track active users, newly joined users, and total energy usage per user.
+
+AI Agent to calculate individual usage and billing, even with a single hub meter.
+
+Real-time dashboard or local screen to display:
+
+- Total users connected
+
+- New users joined
+
+- Energy consumption per user
+
+- Notifications or alerts (overload, battery low)
+
+
+3. Energy & Load Management
+
+Smart hub meter must handle aggregate load from all connected users.
+
+Peak load management: prevent overload and manage distribution efficiently.
+
+- Battery management:
+
+- Avoid deep discharge
+
+- Optimize charging cycles
+
+- Predictive load control to maximize battery lifespan
+
+
+4. AI Integration
+
+AI Agent embedded or connected to meter to:
+
+Collect, process, and store energy data offline if no internet
+
+Perform anomaly detection, predictive maintenance, and billing calculations
+
+Decide when to supply or pause electricity based on usage and battery status
+
+Generate summary proofs for blockchain upload
+
+
+AI Agent must sync with blockchain automatically when connectivity is available.
+
+
+5. Connectivity & Data Handling
+
+Support internet connectivity options: Wi-Fi, NB-IoT, 4G/5G, or LoRa.
+
+Store raw readings locally until AI Agent uploads aggregated summaries to blockchain.
+
+Minimize bandwidth usage: only summary/proof sent on-chain.
+
+Must support offline operation: users still receive electricity while data is buffered.
+
+
+6. Billing & Blockchain Compatibility
+
+Integrate with SunChain smart contracts for automated billing.
+
+AI Agent calculates per-user usage → generates proof → uploads to blockchain.
+
+Supports payments via SunChain token or stablecoin.
+
+Revenue automatically split among:
+
+Hub operator
+
+Maintenance team
+
+Investors
+
+
+7. Display / Dashboard
+
+Local screen or web dashboard shows:
+
+Active users
+
+Newly joined users
+
+Energy usage per user / hub
+
+Battery status and alerts
+
+Billing summary
+
+
+Optional: allow remote monitoring for operators.
+
+
+8. Hardware Requirements
+
+Voltage & load capacity: must handle aggregate peak load from all users.
+
+High storage capacity for buffering 24-hour readings of hundreds of users.
+
+Processing capability for AI calculations locally (edge device or embedded).
+
+Power backup: maintain data logging during mains outages.
+
+Robust IoT module for connectivity.
+
+Physical durability: heat, dust, and environmental protection for outdoor hubs.
+
+
+9. Scalability
+
+Single hub meter can manage hundreds to thousands of users.
+
+For very large deployments, hubs can be split into sub-hubs, each with a meter + AI Agent.
+
+Must support inter-hub communication and synchronization if needed.
+
+
+10. Key Features Summary
+
+Features    -    	Description
+
+Multi-user tracking - Track 100–1000 users per hub with unique IDs
+
+Pay-as-you-go -	Integration with token/stablecoin payments
+
+AI-assisted management - Load balancing, anomaly detection, predictive maintenance
+
+Battery protection -	Deep discharge prevention, charging cycle optimization
+
+Offline operation -	AI Agent collects and buffers data without internet
+
+Blockchain integration -	Daily summary/proof uploads for transparency & revenue split
+
+Display/dashboard -	Real-time user count, energy usage, billing, battery status
+
+Peak load management -	Prevent overload & distribute electricity efficiently
+
+Scalability -	Supports additional hubs or sub-hubs as users grow
+
+Connectivity - Wi-Fi, LoRa, NB-IoT, 4G/5G
+
+
+11. Notes for Manufacturers
+
+Design firmware to communicate seamlessly with AI Agent.
+
+Ensure secure, reliable, and accurate measurements.
+
+Ensure robust power electronics for hub-level energy aggregation.
+
+Allow for future upgrades: more users, sensors, or blockchain features.
+
+- Conclusion
+
+The SunChain Smart Hub Meter will be a centralized hub with decentralized control, powered by AI for intelligent energy management, and fully integrated with blockchain for transparency, pay-as-you-go billing, and investor trust.
+
 
 ## Technical Stack
 
@@ -181,11 +354,11 @@ Collaborators: IoT Engineer, Smart Contract Developer, Community Operations Lead
 
 ## Roadmap
 
-## Quarter Milestone	Goal
+## Quarter, Milestone, Goal
 
 Q4 2025	IoT-enabled Pilot	3 communities live
-Q1 2026	Expand to 5 new communities	500 active users
-Q2 2026	Launch SunChain Africa Platform	Mainnet-ready deployment
+Q1 2026	Expand to 5 new communities,	500 active users
+Q2 2026	Launch SunChain Africa Platform, Mainnet-ready deployment
 
 ## Vision
 
