@@ -308,6 +308,12 @@ Allow for future upgrades: more users, sensors, or blockchain features.
 
 - Conclusion
 
+Even though we have a general master meter outside, every home or office that wants to use our power will buy a small smart-meter of their own.
+This small meter comes with:
+– real-time energy usage details
+– an AI layer that analyzes and predicts consumption
+– a built-in barcode for easy, direct payments.
+
 The SunChain Smart Hub Meter will be a centralized hub with decentralized control, powered by AI for intelligent energy management, and fully integrated with blockchain for transparency, pay-as-you-go billing, and investor trust.
 
 
