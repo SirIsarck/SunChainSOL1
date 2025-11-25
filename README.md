@@ -142,7 +142,7 @@ The meter must:
 
 - Track energy usage for multiple users (100–1000 users per hub).
 
-- Allow users to connect instantly without owning individual inverters, batteries, or panels.
+- Allow users to connect instantly without owning individual batteries, or panels.
 
 - Provide operators full control over electricity distribution.
 
